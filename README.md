@@ -9,3 +9,14 @@ git add .
 git commit -m "feat: Initial Setup"
 git remote add origin https://github_address
 git push origin master
+
+## Python Foundation
+
+-Primitive Variables
+-Functions
+-Objects
+-class
+-Class deep dive
+-Operation and conditions
+-Loops
+- ...
