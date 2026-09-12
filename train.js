@@ -1,3 +1,22 @@
+// F-TASK:
+// Yagona string argumentga ega findDoublers nomli function tuzing.
+\// Agar stringda bittadan ortiq bir xil harflar ishtirok etgan bo'lsa 
+// true, aks holda false natija qaytarsin.
+// MASALAN: findDoublers("hello") => true
+function findDoublers(str) { for (let i = 0; i < str.length; i++) {
+for (let j = i + 1; j < str.length; j++) {
+
+        if (str[i] === str[j]) {
+            return true;
+        }
+    }
+}
+
+return false;
+}
+const result = findDoublers("hello");
+console.log(result);
+
 // TASK E: 
 // Shunday function tuzing, u bitta string argumentni qabul qilib,
 //  
